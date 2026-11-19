@@ -74,7 +74,6 @@ tree_node_t* find_user_answer(tree_node_t* node)
 
 void add_new_answer_to_base(tree_node_t* answer, char* difference, char* correct_answer)
 {
-
     assert(answer);
     assert(difference);
     assert(correct_answer);
