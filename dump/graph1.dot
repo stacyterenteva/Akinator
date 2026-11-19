@@ -1,0 +1,75 @@
+digraph {
+    node000001f5d10d36d0 [shape=Mrecord, style=filled, fillcolor="#ba0aae", color="#250228", label="{{ptr = 000001f5d10d36d0 | parent = 0000000000000000} | data = from geometry | {left = 000001f5d10d35e0 | right = 000001f5d10dca80}}"];
+    node000001f5d10d36d0->node000001f5d10d35e0
+    node000001f5d10d35e0 [shape=Mrecord, style=filled, fillcolor="#ba0aae", color="#250228", label="{{ptr = 000001f5d10d35e0 | parent = 000001f5d10d36d0} | data = from planimetry | {left = 000001f5d10d34c0 | right = 000001f5d10d3460}}"];
+    node000001f5d10d35e0->node000001f5d10d34c0
+    node000001f5d10d34c0 [shape=Mrecord, style=filled, fillcolor="#ba0aae", color="#250228", label="{{ptr = 000001f5d10d34c0 | parent = 000001f5d10d35e0} | data = tranformation of the plane | {left = 000001f5d10d3160 | right = 000001f5d10d34f0}}"];
+    node000001f5d10d34c0->node000001f5d10d3160
+    node000001f5d10d3160 [shape=Mrecord, style=filled, fillcolor="#ba0aae", color="#250228", label="{{ptr = 000001f5d10d3160 | parent = 000001f5d10d34c0} | data = homothety | {left = 0000000000000000 | right = 0000000000000000}}"];
+    node000001f5d10d34c0->node000001f5d10d34f0
+    node000001f5d10d34f0 [shape=Mrecord, style=filled, fillcolor="#ba0aae", color="#250228", label="{{ptr = 000001f5d10d34f0 | parent = 000001f5d10d34c0} | data = devised in ancient Greece | {left = 000001f5d10d31c0 | right = 000001f5d10d3250}}"];
+    node000001f5d10d34f0->node000001f5d10d31c0
+    node000001f5d10d31c0 [shape=Mrecord, style=filled, fillcolor="#ba0aae", color="#250228", label="{{ptr = 000001f5d10d31c0 | parent = 000001f5d10d34f0} | data = about parallel lines | {left = 000001f5d10d3610 | right = 000001f5d10d33a0}}"];
+    node000001f5d10d31c0->node000001f5d10d3610
+    node000001f5d10d3610 [shape=Mrecord, style=filled, fillcolor="#ba0aae", color="#250228", label="{{ptr = 000001f5d10d3610 | parent = 000001f5d10d31c0} | data = Thales's theorem | {left = 0000000000000000 | right = 0000000000000000}}"];
+    node000001f5d10d31c0->node000001f5d10d33a0
+    node000001f5d10d33a0 [shape=Mrecord, style=filled, fillcolor="#ba0aae", color="#250228", label="{{ptr = 000001f5d10d33a0 | parent = 000001f5d10d31c0} | data = Pythagorean theorem | {left = 0000000000000000 | right = 0000000000000000}}"];
+    node000001f5d10d34f0->node000001f5d10d3250
+    node000001f5d10d3250 [shape=Mrecord, style=filled, fillcolor="#ba0aae", color="#250228", label="{{ptr = 000001f5d10d3250 | parent = 000001f5d10d34f0} | data = point | {left = 000001f5d10d3310 | right = 000001f5d10d33d0}}"];
+    node000001f5d10d3250->node000001f5d10d3310
+    node000001f5d10d3310 [shape=Mrecord, style=filled, fillcolor="#ba0aae", color="#250228", label="{{ptr = 000001f5d10d3310 | parent = 000001f5d10d3250} | data = orthocenter | {left = 0000000000000000 | right = 0000000000000000}}"];
+    node000001f5d10d3250->node000001f5d10d33d0
+    node000001f5d10d33d0 [shape=Mrecord, style=filled, fillcolor="#ba0aae", color="#250228", label="{{ptr = 000001f5d10d33d0 | parent = 000001f5d10d3250} | data = includes line and triangle | {left = 000001f5d10d30d0 | right = 000001f5d10d3340}}"];
+    node000001f5d10d33d0->node000001f5d10d30d0
+    node000001f5d10d30d0 [shape=Mrecord, style=filled, fillcolor="#ba0aae", color="#250228", label="{{ptr = 000001f5d10d30d0 | parent = 000001f5d10d33d0} | data = got funny name | {left = 000001f5d10d3280 | right = 000001f5d10d32b0}}"];
+    node000001f5d10d30d0->node000001f5d10d3280
+    node000001f5d10d3280 [shape=Mrecord, style=filled, fillcolor="#ba0aae", color="#250228", label="{{ptr = 000001f5d10d3280 | parent = 000001f5d10d30d0} | data = Chiken Foot Theorem | {left = 0000000000000000 | right = 0000000000000000}}"];
+    node000001f5d10d30d0->node000001f5d10d32b0
+    node000001f5d10d32b0 [shape=Mrecord, style=filled, fillcolor="#ba0aae", color="#250228", label="{{ptr = 000001f5d10d32b0 | parent = 000001f5d10d30d0} | data = Menelay's theorem | {left = 0000000000000000 | right = 0000000000000000}}"];
+    node000001f5d10d33d0->node000001f5d10d3340
+    node000001f5d10d3340 [shape=Mrecord, style=filled, fillcolor="#ba0aae", color="#250228", label="{{ptr = 000001f5d10d3340 | parent = 000001f5d10d33d0} | data = triangle | {left = 0000000000000000 | right = 0000000000000000}}"];
+    node000001f5d10d35e0->node000001f5d10d3460
+    node000001f5d10d3460 [shape=Mrecord, style=filled, fillcolor="#ba0aae", color="#250228", label="{{ptr = 000001f5d10d3460 | parent = 000001f5d10d35e0} | data = from analytical geometry | {left = 000001f5d10d3550 | right = 000001f5d10dc780}}"];
+    node000001f5d10d3460->node000001f5d10d3550
+    node000001f5d10d3550 [shape=Mrecord, style=filled, fillcolor="#ba0aae", color="#250228", label="{{ptr = 000001f5d10d3550 | parent = 000001f5d10d3460} | data = set of points | {left = 000001f5d10d35b0 | right = 000001f5d10dc8a0}}"];
+    node000001f5d10d3550->node000001f5d10d35b0
+    node000001f5d10d35b0 [shape=Mrecord, style=filled, fillcolor="#ba0aae", color="#250228", label="{{ptr = 000001f5d10d35b0 | parent = 000001f5d10d3550} | data = curve of the second order | {left = 0000000000000000 | right = 0000000000000000}}"];
+    node000001f5d10d3550->node000001f5d10dc8a0
+    node000001f5d10dc8a0 [shape=Mrecord, style=filled, fillcolor="#ba0aae", color="#250228", label="{{ptr = 000001f5d10dc8a0 | parent = 000001f5d10d3550} | data = Basis | {left = 0000000000000000 | right = 0000000000000000}}"];
+    node000001f5d10d3460->node000001f5d10dc780
+    node000001f5d10dc780 [shape=Mrecord, style=filled, fillcolor="#ba0aae", color="#250228", label="{{ptr = 000001f5d10dc780 | parent = 000001f5d10d3460} | data = tor | {left = 0000000000000000 | right = 0000000000000000}}"];
+    node000001f5d10d36d0->node000001f5d10dca80
+    node000001f5d10dca80 [shape=Mrecord, style=filled, fillcolor="#ba0aae", color="#250228", label="{{ptr = 000001f5d10dca80 | parent = 000001f5d10d36d0} | data = from calculus | {left = 000001f5d10dc600 | right = 000001f5d10dcc00}}"];
+    node000001f5d10dca80->node000001f5d10dc600
+    node000001f5d10dc600 [shape=Mrecord, style=filled, fillcolor="#ba0aae", color="#250228", label="{{ptr = 000001f5d10dc600 | parent = 000001f5d10dca80} | data = about real numbers | {left = 000001f5d10dcc60 | right = 000001f5d10dc990}}"];
+    node000001f5d10dc600->node000001f5d10dcc60
+    node000001f5d10dcc60 [shape=Mrecord, style=filled, fillcolor="#ba0aae", color="#250228", label="{{ptr = 000001f5d10dcc60 | parent = 000001f5d10dc600} | data = Dedekind's theorem | {left = 0000000000000000 | right = 0000000000000000}}"];
+    node000001f5d10dc600->node000001f5d10dc990
+    node000001f5d10dc990 [shape=Mrecord, style=filled, fillcolor="#ba0aae", color="#250228", label="{{ptr = 000001f5d10dc990 | parent = 000001f5d10dc600} | data = about segments | {left = 000001f5d10dc540 | right = 000001f5d10dcb70}}"];
+    node000001f5d10dc990->node000001f5d10dc540
+    node000001f5d10dc540 [shape=Mrecord, style=filled, fillcolor="#ba0aae", color="#250228", label="{{ptr = 000001f5d10dc540 | parent = 000001f5d10dc990} | data = one segment | {left = 000001f5d10dc690 | right = 000001f5d10dc960}}"];
+    node000001f5d10dc540->node000001f5d10dc690
+    node000001f5d10dc690 [shape=Mrecord, style=filled, fillcolor="#ba0aae", color="#250228", label="{{ptr = 000001f5d10dc690 | parent = 000001f5d10dc540} | data = First Weiestrass | {left = 0000000000000000 | right = 0000000000000000}}"];
+    node000001f5d10dc540->node000001f5d10dc960
+    node000001f5d10dc960 [shape=Mrecord, style=filled, fillcolor="#ba0aae", color="#250228", label="{{ptr = 000001f5d10dc960 | parent = 000001f5d10dc540} | data = Kantor's theorem | {left = 0000000000000000 | right = 0000000000000000}}"];
+    node000001f5d10dc990->node000001f5d10dcb70
+    node000001f5d10dcb70 [shape=Mrecord, style=filled, fillcolor="#ba0aae", color="#250228", label="{{ptr = 000001f5d10dcb70 | parent = 000001f5d10dc990} | data = definition | {left = 000001f5d10dc870 | right = 000001f5d10dc570}}"];
+    node000001f5d10dcb70->node000001f5d10dc870
+    node000001f5d10dc870 [shape=Mrecord, style=filled, fillcolor="#ba0aae", color="#250228", label="{{ptr = 000001f5d10dc870 | parent = 000001f5d10dcb70} | data = set of numbers | {left = 000001f5d10dc9c0 | right = 000001f5d10dc5d0}}"];
+    node000001f5d10dc870->node000001f5d10dc9c0
+    node000001f5d10dc9c0 [shape=Mrecord, style=filled, fillcolor="#ba0aae", color="#250228", label="{{ptr = 000001f5d10dc9c0 | parent = 000001f5d10dc870} | data = sequence | {left = 0000000000000000 | right = 0000000000000000}}"];
+    node000001f5d10dc870->node000001f5d10dc5d0
+    node000001f5d10dc5d0 [shape=Mrecord, style=filled, fillcolor="#ba0aae", color="#250228", label="{{ptr = 000001f5d10dc5d0 | parent = 000001f5d10dc870} | data = limit | {left = 0000000000000000 | right = 0000000000000000}}"];
+    node000001f5d10dcb70->node000001f5d10dc570
+    node000001f5d10dc570 [shape=Mrecord, style=filled, fillcolor="#ba0aae", color="#250228", label="{{ptr = 000001f5d10dc570 | parent = 000001f5d10dcb70} | data = about polynoms | {left = 000001f5d10dc9f0 | right = 000001f5d10dcae0}}"];
+    node000001f5d10dc570->node000001f5d10dc9f0
+    node000001f5d10dc9f0 [shape=Mrecord, style=filled, fillcolor="#ba0aae", color="#250228", label="{{ptr = 000001f5d10dc9f0 | parent = 000001f5d10dc570} | data = Teylor's theorem | {left = 0000000000000000 | right = 0000000000000000}}"];
+    node000001f5d10dc570->node000001f5d10dcae0
+    node000001f5d10dcae0 [shape=Mrecord, style=filled, fillcolor="#ba0aae", color="#250228", label="{{ptr = 000001f5d10dcae0 | parent = 000001f5d10dc570} | data = Lagrange's theorem | {left = 0000000000000000 | right = 0000000000000000}}"];
+    node000001f5d10dca80->node000001f5d10dcc00
+    node000001f5d10dcc00 [shape=Mrecord, style=filled, fillcolor="#ba0aae", color="#250228", label="{{ptr = 000001f5d10dcc00 | parent = 000001f5d10dca80} | data = about factorizing | {left = 000001f5d10dc720 | right = 000001f5d10dc6f0}}"];
+    node000001f5d10dcc00->node000001f5d10dc720
+    node000001f5d10dc720 [shape=Mrecord, style=filled, fillcolor="#ba0aae", color="#250228", label="{{ptr = 000001f5d10dc720 | parent = 000001f5d10dcc00} | data = the fundamental theorem of arithmetic | {left = 0000000000000000 | right = 0000000000000000}}"];
+    node000001f5d10dcc00->node000001f5d10dc6f0
+    node000001f5d10dc6f0 [shape=Mrecord, style=filled, fillcolor="#ba0aae", color="#250228", label="{{ptr = 000001f5d10dc6f0 | parent = 000001f5d10dcc00} | data = Fermat's little theorem | {left = 0000000000000000 | right = 0000000000000000}}"];
+}
